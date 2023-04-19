@@ -1,0 +1,123 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Login"
+    android:background="@color/merah">
+
+    <ImageView
+        android:id="@+id/L_img1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/gambar1"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentLeft="true"
+        />
+
+    <ImageView
+        android:id="@+id/L_btnBack"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/back"
+        android:layout_marginLeft="16dp"
+        android:layout_marginTop="16dp"
+        />
+
+    <ImageView
+        android:id="@+id/L_logo"
+        android:layout_width="172dp"
+        android:layout_height="72dp"
+        android:layout_below="@id/L_img1"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentRight="true"
+        android:layout_marginTop="13dp"
+
+        android:layout_marginRight="-28dp"
+        android:src="@drawable/logobrand" />
+
+    <TextView
+        android:id="@+id/L_text1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/L_img1"
+        android:text="Selamat Datang Kembali"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="40dp"
+        android:textSize="30dp"
+        android:textStyle="bold"
+        android:textColor="@color/cream"
+        />
+
+    <LinearLayout
+        android:id="@+id/ly_2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_below="@+id/L_text1"
+        android:padding="30dp">
+
+        <EditText
+            android:id="@+id/L_email"
+            android:layout_width="match_parent"
+            android:layout_height="57dp"
+            android:background="@drawable/button_shape"
+            android:layout_marginTop="10dp"
+            android:hint="Enter your email"
+            android:textColorHint="@color/cream"
+            android:paddingLeft="20dp"
+            android:backgroundTint="@color/merah"
+            />
+
+        <EditText
+            android:id="@+id/L_password"
+            android:layout_width="match_parent"
+            android:layout_height="57dp"
+            android:background="@drawable/button_shape"
+            android:layout_marginTop="10dp"
+            android:hint="Enter your password"
+            android:textColorHint="@color/cream"
+            android:paddingLeft="20dp"
+            android:backgroundTint="@color/merah"
+            />
+    </LinearLayout>
+
+    <Button
+        android:id="@+id/L_btnLogin"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Login"
+        android:layout_below="@id/ly_2"
+        android:layout_centerHorizontal="true"
+        android:background="@drawable/button_shape"
+        android:width="300dp"
+        android:textColor="@color/merah"
+        android:textSize="20sp"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_below="@id/L_btnLogin"
+        android:gravity="center"
+        android:layout_marginTop="16dp">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Not have an account? "
+            android:textSize="12sp"
+            android:textColor="@color/cream"
+            />
+
+        <TextView
+            android:id="@+id/L_register"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Register "
+            android:textSize="12sp"
+            android:textStyle="bold"
+            />
+    </LinearLayout>
+</RelativeLayout>

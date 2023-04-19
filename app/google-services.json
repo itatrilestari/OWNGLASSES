@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "769168220567",
+    "project_id": "ownglasses-29813",
+    "storage_bucket": "ownglasses-29813.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:769168220567:android:60a33a9621d2fdc2c6e4d2",
+        "android_client_info": {
+          "package_name": "com.example.ownglasses"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "769168220567-049nl280bu5mb6vmom5bvs4j1s6h0qbp.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAdb62pBulVF4xgJ28hQMvufD30OTd_zqk"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "769168220567-049nl280bu5mb6vmom5bvs4j1s6h0qbp.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

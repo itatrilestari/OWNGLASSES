@@ -1,0 +1,22 @@
+<resources>
+    <string name="app_name">OWNGLASSES</string>
+    <string name="title_activity_utama">utama</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="nav_header_title">OWNGLASSES</string>
+    <string name="nav_header_subtitle">ownglasse.com</string>
+    <string name="nav_header_desc">Navigation header</string>
+    <string name="action_settings">Settings</string>
+
+    <string name="menu_home">Home</string>
+    <string name="menu_frame">Frame</string>
+    <string name="menu_lensa">Lensa</string>
+
+    <string name="frame1">Wayfarer</string>
+    <string name="frame2">Cat Eye</string>
+    <string name="frame3">Rimless</string>
+    <string name="frame4">Bulat</string>
+
+    <string name="lensa1">Single Vision</string>
+    <string name="lensa2">Photocromic</string>
+</resources>
